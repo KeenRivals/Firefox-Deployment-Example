@@ -4,4 +4,12 @@ Customized deployment options for Mozilla Firefox. The goal is primarily to supp
 
 ## Installation
 
-The contents of the "Mozilla Firefox" directory should be copied to the Firefox applicaiton directory. It will be "C:\Program Files\Mozilla Firefox", or "C:\Program Files (x86)\Mozilla Firefox".
+The contents of the "Mozilla Firefox" directory should be copied to the Firefox application directory. It will be "C:\Program Files\Mozilla Firefox", or "C:\Program Files (x86)\Mozilla Firefox".
+
+## Adding Extensions
+
+To add an extension to the extensions directory:
+
+1. Download the latest version from Mozilla Addons. 
+2. Rename the xpi file to the extension's ID. You can find the extension ID by extracting the XPI (it's a zip file) and finding "id" in manifest.json.
+	* Example: uBlock's id is ``uBlock0@raymondhill.net``.
