@@ -1,0 +1,1 @@
+copy "Mozilla Firefox\*" "C:\Program Files\Mozilla Firefox" -recurse -force
